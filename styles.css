@@ -1,10 +1,37 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+
 
 .banner{
-    color: #FFF;
+    width: 632px;
+    margin: auto;
+    border: 16px;
+    padding: 230px 170px 345px 345px;
+    color: #ae0909;
 
     text-align: center;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px; 
+}
+
+.primary-red{
+    color: #F00;
+}
+.button-primary{
+    justify-content: center;
+    align-items: center;
+    background: #F00;
+    border-radius: 8px;
+    color:#FFF; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+
+
 }
