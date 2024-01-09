@@ -1,6 +1,8 @@
 body{
     font-family: 'Merriweather', serif;
+   
 }
+
 
 
 
@@ -9,7 +11,7 @@ body{
     margin: auto;
     border: 16px;
     padding: 230px 170px 345px 345px;
-    color: #ae0909;
+    color:#FFF;
 
     text-align: center;
     font-size: 72px;
@@ -43,7 +45,117 @@ body{
 
 }
 .header-background-image{
-    background-image: url('../B9A1-New-Year-New-Mission/resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Bannermage.png');
+    background-position: center;
+    background-size: cover;
+    margin:50px auto;
+    width: 90%;
+    height: 500px;
+    border-radius: 16px;
     
 
+}
+.nice-portfolio-container{
+    /* background-color: #0eff87; */
+    height: 850px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.nice-portfolio-subcontainer{
+    position: absolute;
+    width: 100%;
+}
+
+.nice-rows{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.nice-portfolio-text{
+    font: 24px;
+    color: #F00;
+}
+
+.nice-portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;  
+    padding: 20px 0;
+    transition: .5s ease-in-out;
+}
+.nice-portfolio-texts{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.contentbox{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.nice-photo{
+    width: 100%;
+    transition: .5s;
+}
+
+.photo-size{
+    width: 390px;
+    height: 300px; 
+}
+
+/* awesome portfolio hover */
+.nice-photo:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+    transform: scale(1.1);
+}
+.nice-portfolio-title:hover{
+    color: #F00;
+    letter-spacing: 2px;
+}
+footer{
+    background-color: #070211;
+    height: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-container{
+    width: 90%;
+    height: 350px;
+}
+
+.first-parents{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 255, 21);
+    width: 100%;
+    padding-bottom: 50px;
+}
+.aline-fixed{
+    text-align: right;
+}
+.one-box-info{
+    font-size: 24px;
+    color: #fff;
+}
+
+.second-parents{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 255, 21);
+}
+.footer-box-two{
+    padding: 0 20px;
+}
+.three-parents{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
